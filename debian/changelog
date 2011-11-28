@@ -1,0 +1,132 @@
+keystone (2011.3+20111115-0mit1) oneiric; urgency=low
+
+  * New upstream version (fad970a4a0559b965f61d62d4e01f218621c8ab2)
+
+ -- Kiall Mac Innes <kiall@managedit.ie>  Tue, 15 Nov 2011 13:33:02 +0000
+
+keystone (2011.3+20111111-0mit5) oneiric; urgency=low
+
+  * Fix sphinx doc build properly
+
+ -- Kiall Mac Innes <kiall@managedit.ie>  Mon, 14 Nov 2011 06:09:02 +0000
+
+keystone (2011.3+20111111-0mit1) oneiric; urgency=low
+
+  * New upstream version (0af10fb430e35b41d5fa2439e97ddb58e458cf27)
+
+ -- Kiall Mac Innes <kiall@managedit.ie>  Fri, 11 Nov 2011 12:57:13 +0000
+
+keystone (1.0~d4+20111106-0mit1) oneiric; urgency=low
+
+  * New upstream release (6eafe94d78b0a1c592c842e7679e05049cff3b99)
+
+ -- Kiall Mac Innes <kiall@managedit.ie>  Sun, 06 Nov 2011 21:09:17 +0000
+
+keystone (1.0~d4~20111021-0mit7) oneiric; urgency=low
+
+  * Fix keystone EC2 API support
+
+ -- Kiall Mac Innes <kiall@managedit.ie>  Mon, 24 Oct 2011 17:30:38 +0100
+
+keystone (1.0~d4~20111021-0mit5) oneiric; urgency=low
+
+  * Bump version for PPA rebuild.
+
+ -- Kiall Mac Innes <kiall@managedit.ie>  Sat, 22 Oct 2011 06:56:05 +0100
+
+keystone (1.0~d4~20111021-0mit4) oneiric; urgency=low
+
+  * New upstream version (61148fbdbc41f8791243381a19dfc2136cd0594d)
+  * Add python-passlib dep
+  * Correct default database path
+
+ -- Kiall Mac Innes <kiall@managedit.ie>  Fri, 21 Oct 2011 17:23:55 +0100
+
+keystone (1.0~d4~20110909.1108-0ubuntu4) UNRELEASED; urgency=low
+
+  * debian/copyright:
+    - fix copyright file, replace s/glance/keystone/
+
+ -- Dustin Kirkland <kirkland@ubuntu.com>  Wed, 28 Sep 2011 18:20:56 -0400
+
+keystone (1.0~d4~20110909.1108-0ubuntu3) oneiric; urgency=low
+
+  [Juan Negron]
+  * Added debian/patches/foreign_key.patch:  Fixed bug which attempted to to
+    obtain a service_id by passing an Integer rather than a String to the
+    Column function in models.py. (LP: #861682)
+
+  [Brian Thomason]
+  * Removed "|| true" from test execution in debian/rules as it was masking a
+    failure.  After investigating the failure further, it was found that two
+    files were missing from the contrib/extensions/service/raxkey dir that were
+    a part of trunk at the time. (LP: #861813)
+    - added keystone/contrib/extensions/service/raxkey/extension.xml
+    - added keystone/contrib/extensions/service/raxkey/extension.json
+
+ -- Brian Thomason <brian.thomason@canonical.com>  Wed, 28 Sep 2011 15:30:19 -0400
+
+keystone (1.0~d4~20110909.1108-0ubuntu2) oneiric; urgency=low
+
+  [Chuck Short]
+  * Install configuration files. 
+  * debian/patches/sql_connection.patch: 
+    Specify a path for the sqlite database.
+  * debian/rules: Add get-origs-source.
+
+  [Juan L. Negron]
+  * debian/control, debian/keystone.install:
+    + Update dependencies for python-keystone.
+    + Reanamed logging config file to match upstream.
+      (LP: #860778)
+
+  [Monty Taylor]
+  * Added a conditional on dh_python2 so that the package works on lucid.
+
+ -- Chuck Short <zulcss@ubuntu.com>  Tue, 27 Sep 2011 15:36:35 -0400
+
+keystone (1.0~d4~20110909.1108-0ubuntu1) oneiric; urgency=low
+
+  [Chuck Short]
+  * New upstream release.
+  * debian/control:
+    + Bump standards to 3.9.2.
+    + Fix lintian warnings.
+    + Update maintainer.
+  * debian/rules: Dont fail to build if tests fail.
+  
+  [Dan Prince]
+  * Fix debian/rules file so it works with nodoc.
+
+ -- Chuck Short <zulcss@ubuntu.com>  Fri, 09 Sep 2011 16:25:30 -0400
+
+keystone (1.0~d4~20110823.1078-0ubuntu0) UNRELEASED; urgency=low
+
+  * Add python-mox as a build depend.
+
+ -- Monty Taylor <mordred@inaugust.com>  Fri, 09 Sep 2011 11:00:27 -0700
+
+keystone (1.0~d4~20110819.1045-0ubuntu1) UNRELEASED; urgency=low
+
+  * New upstream release.
+  * Removed fix_tests patch (don't need it any more)
+  * Fixed debian/watch file.
+  * Use root level run_tests now.
+  * We need a special version of webob.
+  * Added adduser depend.
+  * Added python-sphinx build depend.
+
+ -- Monty Taylor <mordred@inaugust.com>  Wed, 24 Aug 2011 09:05:05 -0700
+
+keystone (1.0~20110713.1-0ubuntu1~ppa1) UNRELEASED; urgency=low
+
+  * Add keystone-docs package.
+
+ -- Soren Hansen <soren@ubuntu.com>  Thu, 14 Jul 2011 10:47:13 +0200
+
+keystone (1.0~20110711.1-0ubuntu1~ppa1) oneiric; urgency=low
+
+  * Initial upload.
+
+ -- Soren Hansen <soren@ubuntu.com>  Wed, 25 May 2011 15:57:15 +0200
+

@@ -1,0 +1,3 @@
+usr/bin/*
+etc/keystone.conf etc/keystone
+etc/logging.cnf etc/keystone

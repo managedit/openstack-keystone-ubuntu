@@ -1,0 +1,48 @@
+#!/usr/bin/make -f
+
+# Verbose mode
+#export DH_VERBOSE=1
+
+# Lucid does not have dh_python2, but we would like to be able to use this
+# rules file to build on lucid as well. Thus the branching logic.
+WITH_PYTHON2 = $(shell test -f /usr/bin/dh_python2 && echo "--with python2")
+
+
+%:
+	dh $@ ${WITH_PYTHON2}
+
+ifeq (,$(findstring nocheck, $(DEB_BUILD_OPTIONS)))
+override_dh_auto_test:
+	bash run_tests.sh -N
+endif
+
+override_dh_auto_build:
+	dh_auto_build
+ifeq (,$(findstring nodocs, $(DEB_BUILD_OPTIONS)))
+	python setup.py build_sphinx
+else
+	mkdir -p $(CURDIR)/build/sphinx/html
+	mkdir -p $(CURDIR)/build/sphinx/man
+	touch $(CURDIR)/build/sphinx/man/keystone-manage.1
+endif
+
+override_dh_install:
+	dh_install
+	rm -rf debian/python-keystone/usr/lib/python*/*/doc
+	rm -rf debian/python-keystone/usr/lib/python*/*/tools
+	rm -rf debian/python-keystone/usr/lib/python*/*/examples
+
+ifeq (,$(findstring nodocs, $(DEB_BUILD_OPTIONS)))
+override_dh_installdocs:
+	dh_installdocs
+	rm -f $(CURDIR)/debian/keystone-doc/usr/share/doc/keystone-doc/html/_static/jquery.js
+	ln -s ../../../../javascript/jquery/jquery.js $(CURDIR)/debian/keystone-doc/usr/share/doc/keystone-doc/html/_static/jquery.js
+endif
+
+override_dh_clean:
+	rm -rf $(CURDIR)/build $(CURDIR)/keystone.egg-info $(CURDIR)/.cache
+	rm -f $(CURDIR)/keystone/test/keystone.sql.log $(CURDIR)/keystone/test/keystone.ldap.log
+	dh_clean
+
+get-orig-source:
+	uscan --verbose --force-download --rename --destdir=../build-area
