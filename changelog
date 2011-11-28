@@ -1,3 +1,11 @@
+keystone (2011.3+201111281546-0mit1~6.gbp31587b) oneiric; urgency=low
+
+  ** SNAPSHOT build @31587ba3cff5ada34915f1cef4a0248a8b77c77c **
+
+  * UNRELEASED
+
+ -- Managed I.T. CI <ci@managedit.ie>  Mon, 28 Nov 2011 15:46:49 +0000
+
 keystone (2011.3+20111115-0mit1) oneiric; urgency=low
 
   * New upstream version (fad970a4a0559b965f61d62d4e01f218621c8ab2)
@@ -42,7 +50,7 @@ keystone (1.0~d4~20111021-0mit4) oneiric; urgency=low
 
  -- Kiall Mac Innes <kiall@managedit.ie>  Fri, 21 Oct 2011 17:23:55 +0100
 
-keystone (1.0~d4~20110909.1108-0ubuntu4) UNRELEASED; urgency=low
+keystone (1.0~d4~20110909.1108-0ubuntu4) oneiric; urgency=low
 
   * debian/copyright:
     - fix copyright file, replace s/glance/keystone/
@@ -100,13 +108,13 @@ keystone (1.0~d4~20110909.1108-0ubuntu1) oneiric; urgency=low
 
  -- Chuck Short <zulcss@ubuntu.com>  Fri, 09 Sep 2011 16:25:30 -0400
 
-keystone (1.0~d4~20110823.1078-0ubuntu0) UNRELEASED; urgency=low
+keystone (1.0~d4~20110823.1078-0ubuntu0) oneiric; urgency=low
 
   * Add python-mox as a build depend.
 
  -- Monty Taylor <mordred@inaugust.com>  Fri, 09 Sep 2011 11:00:27 -0700
 
-keystone (1.0~d4~20110819.1045-0ubuntu1) UNRELEASED; urgency=low
+keystone (1.0~d4~20110819.1045-0ubuntu1) oneiric; urgency=low
 
   * New upstream release.
   * Removed fix_tests patch (don't need it any more)
@@ -118,7 +126,7 @@ keystone (1.0~d4~20110819.1045-0ubuntu1) UNRELEASED; urgency=low
 
  -- Monty Taylor <mordred@inaugust.com>  Wed, 24 Aug 2011 09:05:05 -0700
 
-keystone (1.0~20110713.1-0ubuntu1~ppa1) UNRELEASED; urgency=low
+keystone (1.0~20110713.1-0ubuntu1~ppa1) oneiric; urgency=low
 
   * Add keystone-docs package.
 
