@@ -1,3 +1,11 @@
+keystone (2011.3+20111128-0mit1~10.gbp31587b) oneiric; urgency=low
+
+  ** SNAPSHOT build @31587ba3cff5ada34915f1cef4a0248a8b77c77c **
+
+  * UNRELEASED
+
+ -- Managed I.T. CI <ci@managedit.ie>  Mon, 28 Nov 2011 20:34:33 +0000
+
 keystone (2011.3+20111128-0mit1~9.gbp31587b) oneiric; urgency=low
 
   ** SNAPSHOT build @31587ba3cff5ada34915f1cef4a0248a8b77c77c **
