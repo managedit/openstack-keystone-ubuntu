@@ -1,4 +1,12 @@
-keystone (2011.3+20111128-0mit1~10.gbp31587b) oneiric; urgency=low
+keystone (2011.3+20111130~1908-0mit1~11.gbp31587b) oneiric; urgency=high
+
+  ** SNAPSHOT build @31587ba3cff5ada34915f1cef4a0248a8b77c77c **
+
+  * UNRELEASED
+
+ -- Managed I.T. CI <ci@managedit.ie>  Tue, 29 Nov 2011 19:08:41 +0000
+
+keystone (2011.3+20111128-0mit1~10.gbp31587b) oneiric; urgency=high
 
   ** SNAPSHOT build @31587ba3cff5ada34915f1cef4a0248a8b77c77c **
 
@@ -6,7 +14,7 @@ keystone (2011.3+20111128-0mit1~10.gbp31587b) oneiric; urgency=low
 
  -- Managed I.T. CI <ci@managedit.ie>  Mon, 28 Nov 2011 20:34:33 +0000
 
-keystone (2011.3+20111128-0mit1~9.gbp31587b) oneiric; urgency=low
+keystone (2011.3+20111128-0mit1~9.gbp31587b) oneiric; urgency=high
 
   ** SNAPSHOT build @31587ba3cff5ada34915f1cef4a0248a8b77c77c **
 
@@ -14,7 +22,7 @@ keystone (2011.3+20111128-0mit1~9.gbp31587b) oneiric; urgency=low
 
  -- Managed I.T. CI <ci@managedit.ie>  Mon, 28 Nov 2011 19:35:40 +0000
 
-keystone (2011.3+20111128-0mit1~7.gbp31587b) oneiric; urgency=low
+keystone (2011.3+20111128-0mit1~7.gbp31587b) oneiric; urgency=high
 
   ** SNAPSHOT build @31587ba3cff5ada34915f1cef4a0248a8b77c77c **
 
@@ -22,7 +30,7 @@ keystone (2011.3+20111128-0mit1~7.gbp31587b) oneiric; urgency=low
 
  -- Managed I.T. CI <ci@managedit.ie>  Mon, 28 Nov 2011 15:58:04 +0000
 
-keystone (2011.3+201111281546-0mit1~6.gbp31587b) oneiric; urgency=low
+keystone (2011.3+201111281546-0mit1~6.gbp31587b) oneiric; urgency=high
 
   ** SNAPSHOT build @31587ba3cff5ada34915f1cef4a0248a8b77c77c **
 
@@ -30,43 +38,43 @@ keystone (2011.3+201111281546-0mit1~6.gbp31587b) oneiric; urgency=low
 
  -- Managed I.T. CI <ci@managedit.ie>  Mon, 28 Nov 2011 15:46:49 +0000
 
-keystone (2011.3+20111115-0mit1) oneiric; urgency=low
+keystone (2011.3+20111115-0mit1) oneiric; urgency=high
 
   * New upstream version (fad970a4a0559b965f61d62d4e01f218621c8ab2)
 
  -- Kiall Mac Innes <kiall@managedit.ie>  Tue, 15 Nov 2011 13:33:02 +0000
 
-keystone (2011.3+20111111-0mit5) oneiric; urgency=low
+keystone (2011.3+20111111-0mit5) oneiric; urgency=high
 
   * Fix sphinx doc build properly
 
  -- Kiall Mac Innes <kiall@managedit.ie>  Mon, 14 Nov 2011 06:09:02 +0000
 
-keystone (2011.3+20111111-0mit1) oneiric; urgency=low
+keystone (2011.3+20111111-0mit1) oneiric; urgency=high
 
   * New upstream version (0af10fb430e35b41d5fa2439e97ddb58e458cf27)
 
  -- Kiall Mac Innes <kiall@managedit.ie>  Fri, 11 Nov 2011 12:57:13 +0000
 
-keystone (1.0~d4+20111106-0mit1) oneiric; urgency=low
+keystone (1.0~d4+20111106-0mit1) oneiric; urgency=high
 
   * New upstream release (6eafe94d78b0a1c592c842e7679e05049cff3b99)
 
  -- Kiall Mac Innes <kiall@managedit.ie>  Sun, 06 Nov 2011 21:09:17 +0000
 
-keystone (1.0~d4~20111021-0mit7) oneiric; urgency=low
+keystone (1.0~d4~20111021-0mit7) oneiric; urgency=high
 
   * Fix keystone EC2 API support
 
  -- Kiall Mac Innes <kiall@managedit.ie>  Mon, 24 Oct 2011 17:30:38 +0100
 
-keystone (1.0~d4~20111021-0mit5) oneiric; urgency=low
+keystone (1.0~d4~20111021-0mit5) oneiric; urgency=high
 
   * Bump version for PPA rebuild.
 
  -- Kiall Mac Innes <kiall@managedit.ie>  Sat, 22 Oct 2011 06:56:05 +0100
 
-keystone (1.0~d4~20111021-0mit4) oneiric; urgency=low
+keystone (1.0~d4~20111021-0mit4) oneiric; urgency=high
 
   * New upstream version (61148fbdbc41f8791243381a19dfc2136cd0594d)
   * Add python-passlib dep
@@ -74,14 +82,14 @@ keystone (1.0~d4~20111021-0mit4) oneiric; urgency=low
 
  -- Kiall Mac Innes <kiall@managedit.ie>  Fri, 21 Oct 2011 17:23:55 +0100
 
-keystone (1.0~d4~20110909.1108-0ubuntu4) oneiric; urgency=low
+keystone (1.0~d4~20110909.1108-0ubuntu4) oneiric; urgency=high
 
   * debian/copyright:
     - fix copyright file, replace s/glance/keystone/
 
  -- Dustin Kirkland <kirkland@ubuntu.com>  Wed, 28 Sep 2011 18:20:56 -0400
 
-keystone (1.0~d4~20110909.1108-0ubuntu3) oneiric; urgency=low
+keystone (1.0~d4~20110909.1108-0ubuntu3) oneiric; urgency=high
 
   [Juan Negron]
   * Added debian/patches/foreign_key.patch:  Fixed bug which attempted to to
@@ -98,7 +106,7 @@ keystone (1.0~d4~20110909.1108-0ubuntu3) oneiric; urgency=low
 
  -- Brian Thomason <brian.thomason@canonical.com>  Wed, 28 Sep 2011 15:30:19 -0400
 
-keystone (1.0~d4~20110909.1108-0ubuntu2) oneiric; urgency=low
+keystone (1.0~d4~20110909.1108-0ubuntu2) oneiric; urgency=high
 
   [Chuck Short]
   * Install configuration files. 
@@ -117,7 +125,7 @@ keystone (1.0~d4~20110909.1108-0ubuntu2) oneiric; urgency=low
 
  -- Chuck Short <zulcss@ubuntu.com>  Tue, 27 Sep 2011 15:36:35 -0400
 
-keystone (1.0~d4~20110909.1108-0ubuntu1) oneiric; urgency=low
+keystone (1.0~d4~20110909.1108-0ubuntu1) oneiric; urgency=high
 
   [Chuck Short]
   * New upstream release.
@@ -132,13 +140,13 @@ keystone (1.0~d4~20110909.1108-0ubuntu1) oneiric; urgency=low
 
  -- Chuck Short <zulcss@ubuntu.com>  Fri, 09 Sep 2011 16:25:30 -0400
 
-keystone (1.0~d4~20110823.1078-0ubuntu0) oneiric; urgency=low
+keystone (1.0~d4~20110823.1078-0ubuntu0) oneiric; urgency=high
 
   * Add python-mox as a build depend.
 
  -- Monty Taylor <mordred@inaugust.com>  Fri, 09 Sep 2011 11:00:27 -0700
 
-keystone (1.0~d4~20110819.1045-0ubuntu1) oneiric; urgency=low
+keystone (1.0~d4~20110819.1045-0ubuntu1) oneiric; urgency=high
 
   * New upstream release.
   * Removed fix_tests patch (don't need it any more)
@@ -150,13 +158,13 @@ keystone (1.0~d4~20110819.1045-0ubuntu1) oneiric; urgency=low
 
  -- Monty Taylor <mordred@inaugust.com>  Wed, 24 Aug 2011 09:05:05 -0700
 
-keystone (1.0~20110713.1-0ubuntu1~ppa1) oneiric; urgency=low
+keystone (1.0~20110713.1-0ubuntu1~ppa1) oneiric; urgency=high
 
   * Add keystone-docs package.
 
  -- Soren Hansen <soren@ubuntu.com>  Thu, 14 Jul 2011 10:47:13 +0200
 
-keystone (1.0~20110711.1-0ubuntu1~ppa1) oneiric; urgency=low
+keystone (1.0~20110711.1-0ubuntu1~ppa1) oneiric; urgency=high
 
   * Initial upload.
 
