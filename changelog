@@ -1,3 +1,14 @@
+keystone (2011.3+20111222~0001-0mit1~12.gbp3275af) oneiric; urgency=low
+
+  ** SNAPSHOT build @3275af7a598aa5fa3ec1eb30b7ec30f7c6e2c514 **
+
+  [ Alan Pevec ]
+  * [3275af7a] adjust echo client example for 2.0
+
+  [ Managed I.T. CI ]
+
+ -- Managed I.T. CI <ci@managedit.ie>  Thu, 22 Dec 2011 00:01:18 +0000
+
 keystone (2011.3+20111130~1908-0mit1~11.gbp31587b) oneiric; urgency=high
 
   ** SNAPSHOT build @31587ba3cff5ada34915f1cef4a0248a8b77c77c **
