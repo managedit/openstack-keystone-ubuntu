@@ -1,4 +1,12 @@
-keystone (2011.3+20111222~0001-0mit1~12.gbp3275af) oneiric; urgency=low
+keystone (2011.3.1+20120117~1258-0mit1~13.gbp3275af) oneiric; urgency=medium
+
+  ** SNAPSHOT build @3275af7a598aa5fa3ec1eb30b7ec30f7c6e2c514 **
+
+  * UNRELEASED
+
+ -- Managed I.T. CI <ci@managedit.ie>  Tue, 17 Jan 2012 12:58:11 +0000
+
+keystone (2011.3+20111222~0001-0mit1~12.gbp3275af) oneiric; urgency=medium
 
   ** SNAPSHOT build @3275af7a598aa5fa3ec1eb30b7ec30f7c6e2c514 **
 
