@@ -1,3 +1,14 @@
+keystone (2011.3.1+20120119~0000-0mit1~14.gbp0e5503) oneiric; urgency=medium
+
+  ** SNAPSHOT build @0e55036e202423eb66bfee4abe1569057dae6a1b **
+
+  [ Kiall Mac Innes ]
+  * [0e55036e] Correct endpoint template URLs in docs.
+
+  [ Managed I.T. CI ]
+
+ -- Managed I.T. CI <ci@managedit.ie>  Thu, 19 Jan 2012 00:01:00 +0000
+
 keystone (2011.3.1+20120117~1258-0mit1~13.gbp3275af) oneiric; urgency=medium
 
   ** SNAPSHOT build @3275af7a598aa5fa3ec1eb30b7ec30f7c6e2c514 **
